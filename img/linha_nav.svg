@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="516.9809mm"
+   height="8.4745331mm"
+   viewBox="0 0 516.9809 8.4745331"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="linha_nav.svg"
+   inkscape:export-filename="linha_nav.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.76969697"
+     inkscape:cx="418.34646"
+     inkscape:cy="561.90945"
+     inkscape:window-width="1842"
+     inkscape:window-height="1051"
+     inkscape:window-x="69"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient2818"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop2816" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(76.761743,-69.881163)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.517;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m -75.15347,74.995257 c 14.043031,-0.426637 28.157561,0.125156 42.211903,-0.250415 C -21.784729,74.446702 -10.66563,73.82246 0.50126278,73.564313 15.761151,73.211546 30.971507,73.253769 46.237984,73.135031 c 31.981445,-0.248746 63.952566,-0.514718 95.943956,-0.357738 16.31381,0.08006 32.45961,0.571799 48.74572,0.822793 40.50382,0.624227 81.12741,0.822794 121.64935,0.822794 14.07571,0 27.70671,0.06644 41.69609,0.858568 14.79176,0.837549 33.94212,2.289109 48.57376,0.858567 1.08835,-0.106409 25.46827,-3.301844 35.76406,-4.650572"
+       id="path3516"
+       inkscape:export-filename="linha_nav.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>

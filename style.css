@@ -1,0 +1,203 @@
+html{
+  overflow-x: hidden;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: Baloo, Arial;
+  color: #101010;
+}
+
+@font-face {
+  font-family: Baloo;
+  src: url(BalooThambi2-VariableFont_wght.ttf)
+}
+
+nav{
+  font-size: 30px;
+  font-weight: 600;
+  height: 50px;
+  align-items: center;
+}
+
+nav p{
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-bottom: -5px;
+  font-size: 1.5em;
+}
+
+.linha-nav{
+  width: 150vw;
+  position: relative;
+  margin-left: -200px;
+  margin-top: 0px;
+}
+
+.botoes-navbar{
+  display: flex;
+  gap: 20px;
+}
+
+.container{
+  justify-content: center;
+}
+
+.introducao{
+  display: flex;
+}
+
+.texto-apresentacao{
+  font-size:1.2em; 
+  font-weight: 400;
+  padding: 0 12% 0 12%;
+}
+
+.img-introducao{
+  margin-top: 80px;
+  margin-right: 0px;
+  width: 30%;
+}
+.apresentacao{
+  padding: 0 10% 0 10%;
+  font-size: 150px;
+  font-weight: 600;
+  line-height: 120px;
+}
+
+.eu-sou{
+  font-size: 120px;
+}
+
+.titulo{
+  font-size: 2.5em;
+  font-weight: 600;
+  padding: 20px 12% 10px 12%;
+}
+.titulo::after{
+  content: "ou não, depende da pessoa.";
+  font-size: .3em;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+.footer{
+  text-align: center;
+  align-items: center;
+  height: 50px;
+}
+
+.box-curiosidades{
+  margin-top: -30px;
+  display: flex;
+  padding: 0px 12% 0px 12%;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.curiosidades{
+  counter-reset: mynum;
+  min-width: 300px;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.indicador-lista{
+  margin-left: 10px;
+}
+
+p.indicador-lista::before{
+  content: counter(mynum) " - ";
+  counter-increment: mynum;
+  font-weight: 600;
+}
+
+.curiosidades ul{
+  list-style-position: outside;
+}
+.subtitulo{
+  font-size: 1.7em;
+  font-weight: 600;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1000px){
+	.img-introducao{
+    display: none;
+  }
+
+  .box-curiosidades{
+    flex-direction: column;
+  }
+
+  .linha-nav{
+    width: 140vw;
+  }
+  .introducao{
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 500px){
+  nav{
+    width: 100vw;
+  }
+
+  .box-curiosidades{
+    flex-direction: column;
+  }
+
+  .titulo::after{
+    content:""
+  }
+  
+  .img-introducao{
+    display: none;
+  }
+
+  .linha-nav{
+    width: 200vw;
+  }
+  
+  nav p{
+    font-size: 20px;
+  }
+  
+  .introducao{
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .apresentacao{
+    font-size: 100px;
+  }
+
+  .eu-sou{
+    font-size: 80px;
+  }
+
+  .texto-apresentacao{
+    padding: 0 5% 0 5%;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .apresentacao{
+    font-size: 100px;
+    line-height: 70px;
+  }
+
+  .eu-sou{
+    font-size: 60px;
+  }
+}
+/*
+#0D0D0D
+#404040
+#595959
+#A6A6A6
+#BFBFBF
+*/
